@@ -2,7 +2,7 @@ pipeline {
   agent {
     docker {
       image 'govready/centos7-cak1-baseline'
-      args '--network	continuous-ato-kit_ato_network --name target-app-server'
+      args '--network continuous-ato-kit_ato_network --name target-app-server'
     }
   }
   stages {
